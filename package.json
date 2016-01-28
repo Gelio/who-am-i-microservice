@@ -1,0 +1,23 @@
+{
+  "name": "who-am-i-microservice",
+  "version": "1.0.0",
+  "description": "A task from [FreeCodeCamp](http://www.freecodecamp.com/challenges/request-header-parser-microservice).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js prod",
+    "dev": "node index.js dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gelio/who-am-i-microservice.git"
+  },
+  "author": "Grzegorz Rozdzialik <voreny.gelio@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gelio/who-am-i-microservice/issues"
+  },
+  "homepage": "https://github.com/Gelio/who-am-i-microservice#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
