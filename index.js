@@ -14,7 +14,7 @@ app.get('/*', function(req, res) {
     if (req.headers['accept-language']) {
         var languages = req.headers['accept-language'].split(';');
         if (languages.length > 0)
-            responseObject.language = languages;
+            responseObject.language = languages[0];
     }
 
     // Remove the parentheses from software
